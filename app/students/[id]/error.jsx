@@ -1,0 +1,9 @@
+"use client"
+export default function Error({ reset }) {
+    return(
+        <div> <h1>Something went wrong!</h1> 
+        <button onClick={reset}> Try Again </button>
+        </div>
+
+    );
+}
